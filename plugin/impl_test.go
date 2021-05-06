@@ -21,7 +21,7 @@ func Test_parseRepoBranch(t *testing.T) {
 		Branch string
 	}{
 		{"octocat/hello-world", "octocat", "hello-world", ""},
-		{"octocat/hello-world@master", "octocat", "hello-world", "master"},
+		{"octocat/hello-world@main", "octocat", "hello-world", "main"},
 	}
 
 	for _, test := range tests {

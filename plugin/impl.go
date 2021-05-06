@@ -62,8 +62,8 @@ func (p *Plugin) Validate() error {
 //
 // When this plugin gets executed, it should trigger a build of configured downstream repos. Each
 // configured downstream repo will have its last build of the configured branch re-triggered.
-// In the case of enterprise, this will cause a re-build of the latest master revision, which again
-// will pull the latest OSS master revision.
+// In the case of enterprise, this will cause a re-build of the latest main revision, which again
+// will pull the latest OSS main revision.
 func (p *Plugin) Execute() error {
 	config := new(oauth2.Config)
 
