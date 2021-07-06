@@ -327,4 +327,8 @@ trigger:
 depends_on:
 - pr-testing
 
+---
+kind: signature
+hmac: 123b323d1c308050d96e0e825015d1efd58d90753c24d906a0516569a129d2f7
+
 ...
